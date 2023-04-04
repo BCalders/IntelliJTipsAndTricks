@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.2.4
+<sup><sup>By Bas Calders v0.2.4b
 
 ---
 
@@ -64,6 +64,6 @@ Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 
 ## Best practices and workflows
 
-## Plugins - A list 
+## Plugins - a List 
 
 - Key Promoter X
