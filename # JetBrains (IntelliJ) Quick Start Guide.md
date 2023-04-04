@@ -1,9 +1,12 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.2.3
+<sup><sup>By Bas Calders v0.2.4
 
 ---
 
 ## Table of Contents
+
+**_//TODO: is dit al goed?_**
+
 [TOC]
 
 ## Prerequisites
@@ -29,7 +32,7 @@ A physical copy of a cheat sheet can be a valuable resource for learning and uti
 A plugin that can help you learn and integrate keyboard shortcuts into your workflow is the [`Key Promoter X`](https://plugins.jetbrains.com/plugin/9792-key-promoter-x) plugin. This plugin is designed to help you improve your productivity by reminding you every time you perform an action that could be done more efficiently using a shortcut. The plugin keeps track of your actions and prompts you with a notification every time an action has a corresponding keyboard shortcut available. This serves as a gentle reminder to use shortcuts and helps you to learn them more quickly by providing immediate feedback. With the help of this plugin, you can gradually integrate keyboard shortcuts into your workflow, leading to faster and more efficient use of IntelliJ.
 
 ### Sheets
-//TODO: update links to work
+**_//TODO: update links to work_**
 <details>
 <summary>Windows/Linux</summary>
 <img src="cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png"/>
