@@ -1,11 +1,9 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.2.4b
+<sup><sup>By Bas Calders v0.3.1
 
 ---
 
 ## Table of Contents
-
-**_//TODO: is dit al goed?_**
 
 [TOC]
 
@@ -51,7 +49,6 @@ Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 - add build button to bar
 - add vcs buttons to bar
 - make project tree be "un-docked"
-- colored brackets, other plugins
 
 ## Advanced Features 
 
@@ -65,5 +62,23 @@ Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 ## Best practices and workflows
 
 ## Plugins - a List 
+Welcome to the chapter on our top recommended plugins for enhancing productivity and introducing quality-of-life improvements in your development environment. As a developer, you understand the importance of having a well-configured workspace that enables you to write clean, efficient, and maintainable code. With countless plugins available, it can be challenging to identify the ones that truly make a difference. In this chapter, we have handpicked a selection of plugins that will not only boost your productivity but also provide those little quality-of-life changes that make coding more enjoyable and less error-prone.
 
 - Key Promoter X
+    >The Key Promoter X helps you to learn essential shortcuts while you are working. When you use the mouse on a button inside the IDE, the Key Promoter X shows you the keyboard shortcut that you should have used instead. This provides an easy way to learn how to replace tedious mouse work with keyboard keys and helps to transition to a faster, mouse free development. The Key Promoter X tool window shows you a hit-list of the mouse actions you use the most and directly provides you with the shortcut you can use instead. For buttons that don't have a shortcut, the Key Promoter X prompts you with the possibility to directly create one.
+
+    https://plugins.jetbrains.com/plugin/9792-key-promoter-x
+- Github Copilot
+    >GitHub Copilot is an AI-driven code completion tool created through a partnership between GitHub and OpenAI. The IntelliJ plugin version of GitHub Copilot aims to support software developers by providing context-aware code snippets and function suggestions while they write code. This advanced tool is built on a deep learning model that has been trained on an extensive range of public code repositories, enabling it to generate pertinent code suggestions across multiple programming languages and frameworks.
+    The GitHub Copilot plugin for IntelliJ enhances the coding experience by offering real-time recommendations, which can significantly improve productivity, decrease development time, and assist developers in writing higher-quality code. Although the AI-generated suggestions can be highly valuable, it's important to note that they may not always be perfect or adhere to best practices, so developers should review and adjust the suggestions as needed.
+
+    https://plugins.jetbrains.com/plugin/17718-github-copilot
+- Rainbow Brackets
+    >Rainbow Brackets is a plugin for JetBrains IDEs, including IntelliJ IDEA, that enhances code readability by color-coding matching brackets, parentheses, and braces in your source code. This visual differentiation allows developers to quickly identify the structure and nesting levels of their code, making it easier to navigate and understand complex code blocks.
+    By assigning unique colors to corresponding pairs of brackets, parentheses, or braces, Rainbow Brackets helps reduce the likelihood of syntax errors due to mismatched or missing delimiters. This simple yet effective plugin contributes to a more efficient and enjoyable coding experience, particularly when working with deeply nested code structures.
+
+    https://plugins.jetbrains.com/plugin/10080-rainbow-brackets
+- Productivity Bundle 
+    >The JetBrains Marketplace Productivity Bundle offers a selection of carefully chosen plugins that aim to boost user experience and productivity within JetBrains IDEs, such as IntelliJ IDEA. By streamlining workflows and optimizing common tasks, the bundle enables developers to concentrate on coding while enjoying improved efficiency. The included tools promote the use of keyboard shortcuts, enhance code navigation, and provide advanced code generation and refactoring capabilities. Additionally, the bundle comes with valuable integrations, such as GitHub Copilot, which offers AI-powered code completion. Overall, the Productivity Bundle significantly enhances the development process within JetBrains IDEs by providing a comprehensive suite of tools to make coding faster, more efficient, and enjoyable.
+
+    https://plugins.jetbrains.com/bundles/4-productivity-bundle
