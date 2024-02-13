@@ -1,7 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.3.2
-
----
+<sup><sup>By Bas Calders v0.3.3
 
 ## Table of Contents
 
@@ -46,11 +44,41 @@ Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 ## Navigation and Shortcuts
 
 ### Recommended shortcut changes: 
-When pressing <kbd>CTRL</kbd>+<kbd>Y</kbd> for the first time, You will be prompted with the option to choose between `Redo` and `Delete Line`. I Recommend choosing the option you are most accustomed to in other programs: `Redo`. To fill this void in functionality we van bind `Delete line` to <kbd>Alt</kbd>+<kbd>Backspace</kbd>. This wil prompt the replacement of `Undo`. But this is no problem since this is also served by <kbd>Ctrl</kbd>+<kbd>z</kbd>.
+When pressing <kbd>ctrl</kbd>+<kbd>Y</kbd> for the first time, You will be prompted with the option to choose between `Redo` and `Delete Line`. I Recommend choosing the option you are most accustomed to in other programs: `Redo`. To fill this void in functionality we van bind `Delete line` to <kbd>alt</kbd>+<kbd>backspace</kbd>. This wil prompt the replacement of `Undo`. But this is no problem since this is also served by <kbd>ctrl</kbd>+<kbd>Z</kbd>.
 
 The Keymap can be edited by pressing the <kbd>⛭</kbd>, then <kbd>Keymap...</kbd>, then <kbd>Configure Keymap...</kbd>
 
 Another good change to make is to bind `Run`, `Build` and `Debug` to dedicated buttons. Macro or unused keys work the best for this, but if needed `AutoHotKey` can also help you with this.
+
+### Table of useful shortcuts
+**_// TODO deze moeten herverdeeld worden_**
+
+|Shortcut|Action|
+|---|---|
+|<kbd>shift</kbd>+<kbd>enter</kbd>|Insert line below|
+|<kbd>ctrl</kbd>+<kbd>/</kbd>|comment line|
+|<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>/</kbd>|comment code block|
+|<kbd>alt</kbd>+<kbd>F8</kbd>|Evaluate expression &rarr; when on a breakpoint in `Debug` run any line of code at that state of the execution| <TODO deze shit moet nog is bezien worden>
+
+### Cursor Navigation
+Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. I also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underrated keys can be extremely useful for navigating to the start or end of a line.
+
+### Manipulation
+Another hugely underused feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<kbd>del</kbd>, this removes the entire word in front of or behind your cursor (this behavior is also not limited to the IDE 😉 ). As we set up earlier, another great combination is <kbd>alt</kbd>+<kbd>backspace</kbd>, although it must be noted that deleting is seldom the best solution, i'd recommend you to first comment out the line before removing. First commenting out code, then removing it during cleanup is generally the better way to tackle things. A last handy one is moving a selection within the class up or down. This can be accomplished by holding <kbd>shift</kbd>+<kbd>alt</kbd> and pressing <kbd>up/down</kbd>. This can come in handy with code cleanup.
+
+### IDE Navigation
+|Shortcut|Action|
+|---|---|
+|<kbd>f4</kbd>| Jump to source code or definition|
+|double <kbd>shift</kbd>|Search everywhere, find things in any file of the project|
+|double <kbd>ctrl</kbd>|Run anything|
+|<kbd>ctrl</kbd>+<kbd>e</kbd>|Open recent file list|
+|<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>|Show recent locations|
+|<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>F12</kbd>|Open file location in explorer|
+|<kbd>ctrl</kbd>+<kbd>F12</kbd>|Show all members of current file|
+|<kbd>ctrl</kbd>+<kbd>F11</kbd>|Make bookmarks and add number mnemonic this can then be jumped to using <kbd>ctrl</kbd>+ the chosen number key|
+
+
 
 ## Customization 
 - add build button to bar
