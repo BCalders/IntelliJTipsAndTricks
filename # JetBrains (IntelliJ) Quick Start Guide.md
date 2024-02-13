@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.3.3
+<sup><sup>By Bas Calders v0.4.1
 
 ## Table of Contents
 
@@ -31,12 +31,12 @@ A plugin that can help you learn and integrate keyboard shortcuts into your work
 **_//TODO: update links to work_**
 <details>
 <summary>Windows/Linux</summary>
-<img src="cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png"/>
+<img src="res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png"/>
 Click [here](cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download PDF
 </details>
 <details>
 <summary>MacOS</summary>
-<img src="cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png"/>
+<img src="res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png"/>
 Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 </details>
 
@@ -44,7 +44,7 @@ Click [here](./cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download PDF
 ## Navigation and Shortcuts
 
 ### Recommended shortcut changes: 
-When pressing <kbd>ctrl</kbd>+<kbd>Y</kbd> for the first time, You will be prompted with the option to choose between `Redo` and `Delete Line`. I Recommend choosing the option you are most accustomed to in other programs: `Redo`. To fill this void in functionality we van bind `Delete line` to <kbd>alt</kbd>+<kbd>backspace</kbd>. This wil prompt the replacement of `Undo`. But this is no problem since this is also served by <kbd>ctrl</kbd>+<kbd>Z</kbd>.
+When pressing <kbd>ctrl</kbd>+<kbd>Y</kbd> for the first time, You will be prompted with the option to choose between `Redo` and `Delete Line`. We Recommend choosing the option you are most accustomed to in other programs: `Redo`. To fill this void in functionality we van bind `Delete line` to <kbd>alt</kbd>+<kbd>backspace</kbd>. This wil prompt the replacement of `Undo`. But this is no problem since this is also served by <kbd>ctrl</kbd>+<kbd>Z</kbd>.
 
 The Keymap can be edited by pressing the <kbd>⛭</kbd>, then <kbd>Keymap...</kbd>, then <kbd>Configure Keymap...</kbd>
 
@@ -61,7 +61,7 @@ Another good change to make is to bind `Run`, `Build` and `Debug` to dedicated b
 |<kbd>alt</kbd>+<kbd>F8</kbd>|Evaluate expression &rarr; when on a breakpoint in `Debug` run any line of code at that state of the execution| <TODO deze shit moet nog is bezien worden>
 
 ### Cursor Navigation
-Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. I also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underrated keys can be extremely useful for navigating to the start or end of a line.
+Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. We also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underrated keys can be extremely useful for navigating to the start or end of a line.
 
 ### Manipulation
 Another hugely underused feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<kbd>del</kbd>, this removes the entire word in front of or behind your cursor (this behavior is also not limited to the IDE 😉 ). As we set up earlier, another great combination is <kbd>alt</kbd>+<kbd>backspace</kbd>, although it must be noted that deleting is seldom the best solution, i'd recommend you to first comment out the line before removing. First commenting out code, then removing it during cleanup is generally the better way to tackle things. A last handy one is moving a selection within the class up or down. This can be accomplished by holding <kbd>shift</kbd>+<kbd>alt</kbd> and pressing <kbd>up/down</kbd>. This can come in handy with code cleanup.
@@ -81,9 +81,18 @@ Another hugely underused feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<kbd>de
 
 
 ## Customization 
-- add build button to bar
-- add vcs buttons to bar
-- make project tree be "un-docked"
+### Toolbar
+Since the *New UI Update* of `IntelliJ 2022.3` and higher the Toolbar has become a nicely customizable part of real estate in the editor. Admittedly customizations are a very personal thing, but still we do have a few suggestions that might make your life that *tiny bit* easier. The upper bar has been subject to change in the updates following `2022.3`, so it might be that these suggestions become obsolete in the future. As for the writing of this guide, these are the edits we recommend.
+
+Firstly adding a `Build` button next to the `Run` and `Debug` buttons. This button is worth more than you'd initially suspect, this will be handled in chapter [Efficiency and Time-Saving](#efficiency-and-time-saving). The next addition to the Toolbar we would make is adding the Version Control buttons `Update Project`/`Pull` (depending on preference), `Commit` and `Push` for quick access. 
+
+After removing some unnecessary actions from the Toolbar and setting a color for your project, your Toolbar might look something like this.
+<img src="res/ToolbarExample.png"/>
+
+### Other
+Another customization option that can help is undocking certain parts of the IDE. We recommend undocking the project tree, as this clears up valuable screen real estate, especially when working with multiple files open at once.
+
+Lastly, we also recommend displaying white spaces, this can easily be enabled by using Search everything or in the search bar of the settings. 
 
 ## Advanced Features 
 
