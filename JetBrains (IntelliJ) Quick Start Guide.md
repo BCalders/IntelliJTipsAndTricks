@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.4.2
+<sup><sup>By Bas Calders v0.4.3
 
 ## Table of Contents
 
@@ -63,10 +63,10 @@ Another good change to make is to bind `Run`, `Build` and `Debug` to dedicated b
 |<kbd>ctrl</kbd>+<kbd>d</kbd>|Duplicate current line|
 
 ### Cursor Navigation
-Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. We also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underrated keys can be extremely useful for navigating to the start or end of a line.
+Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. We also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underused keys can be extremely useful for navigating to the start or end of a line.
 
 ### Manipulation
-Another hugely underused feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<kbd>del</kbd>, this removes the entire word in front of or behind your cursor (this behavior is also not limited to the IDE 😉 ). As we set up earlier, another great combination is <kbd>alt</kbd>+<kbd>backspace</kbd>, although it must be noted that deleting is seldom the best solution, i'd recommend you to first comment out the line before removing. First commenting out code, then removing it during cleanup is generally the better way to tackle things. A last handy one is moving a selection within the class up or down. This can be accomplished by holding <kbd>shift</kbd>+<kbd>alt</kbd> and pressing <kbd>up/down</kbd>. This can come in handy with code cleanup.
+Another criminally underrated feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<kbd>del</kbd>, this removes the entire word in front of or behind your cursor (this behavior is also not limited to the IDE 😉). As we set up earlier, another great combination is <kbd>alt</kbd>+<kbd>backspace</kbd>, although it must be noted that deleting is seldom the best solution, we'd recommend you to first comment out the line before removing. First commenting out code, then removing it during cleanup is generally the better way to tackle things. A last handy one is moving a selection within the class up or down. This can be accomplished by holding <kbd>shift</kbd>+<kbd>alt</kbd> and pressing <kbd>up/down</kbd>. This can come in handy with code cleanup.
 
 ### IDE Navigation
 |Shortcut|Action|
@@ -96,10 +96,9 @@ Another customization option that can help is undocking certain parts of the IDE
 
 Lastly, we also recommend displaying white spaces, this can easily be enabled by using Search everything or in the search bar of the settings. 
 
-## Advanced Features 
-
 ## Integration and Interoperability
-- use global settings
+
+IntelliJ IDEA's Settings Sync feature offers invaluable convenience by seamlessly synchronizing your IDE settings across multiple devices. Whether you're switching between workstations or collaborating with team members, this functionality ensures consistency in your development environment, saving you time and effort in configuring preferences, keymaps, plugins, and more. With Settings Sync, IntelliJ users can effortlessly maintain their preferred setup and focus on what matters most: coding efficiently and effectively.
 
 ## Efficiency and Time-Saving
 - plugins like key promoter
