@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.4.3
+<sup><sup>By Bas Calders v0.4.3b
 
 ## Table of Contents
 
@@ -33,11 +33,11 @@ Here you can find the cheat sheets as well as download links.
 
 #### Windows/Linux
 ![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png)
-Click [here](cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download the Windows/Linux PDF
+Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download the Windows/Linux PDF
 
 #### MacOS
 ![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png)
-Click [here](cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download the MacOS PDF
+Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download the MacOS PDF
 
 ## Navigation and Shortcuts
 
