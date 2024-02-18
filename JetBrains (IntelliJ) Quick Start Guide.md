@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.4.3b
+<sup><sup>By Bas Calders v0.4.3c
 
 ## Table of Contents
 
@@ -33,11 +33,11 @@ Here you can find the cheat sheets as well as download links.
 
 #### Windows/Linux
 ![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png)
-Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download the Windows/Linux PDF
+Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download the Windows/Linux PDF. Or you can find them under ./res/cheatsheets/ .
 
 #### MacOS
 ![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png)
-Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download the MacOS PDF
+Click [here](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download the MacOS PDF. Or you can find them under ./res/cheatsheets/ .
 
 ## Navigation and Shortcuts
 
@@ -89,7 +89,7 @@ Since the *New UI Update* of `IntelliJ 2022.3` and higher the Toolbar has become
 Firstly adding a `Build` button next to the `Run` and `Debug` buttons. This button is worth more than you'd initially suspect, this will be handled in chapter [Efficiency and Time-Saving](#efficiency-and-time-saving). The next addition to the Toolbar we would make is adding the Version Control buttons `Update Project`/`Pull` (depending on preference), `Commit` and `Push` for quick access. 
 
 After removing some unnecessary actions from the Toolbar and setting a color for your project, your Toolbar might look something like this.
-<img src="./res/ToolbarExample.png"/>
+<img src="./res/img/ToolbarExample.png"/>
 
 ### Other
 Another customization option that can help is undocking certain parts of the IDE. We recommend undocking the project tree, as this clears up valuable screen real estate, especially when working with multiple files open at once.
