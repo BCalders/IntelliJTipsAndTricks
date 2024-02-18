@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.4.1b
+<sup><sup>By Bas Calders v0.4.1d
 
 ## Table of Contents
 
@@ -29,19 +29,15 @@ A plugin that can help you learn and integrate keyboard shortcuts into your work
 
 ### Sheets
 
-Hidden behind these dropdowns you can find the cheat sheets as well as download links.
+Here you can find the cheat sheets as well as download links.
 
-<details>
-<summary>Windows/Linux</summary>
-<img src="./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png"/>
-Click <a download="./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf">here</a> to download PDF
-</details>
-<details>
-<summary>MacOS</summary>
-<img src="./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png"/>
-Click <a download="./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf">here</a> to download PDF
-</details>
+#### Windows/Linux
+![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.png)
+Click [here](cheatsheets/IntelliJIDEA_ReferenceCard_Windows-Linux.pdf) to download the Windows/Linux PDF
 
+#### MacOS
+![windows-linux](./res/cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.png)
+Click [here](cheatsheets/IntelliJIDEA_ReferenceCard_MacOS.pdf) to download the MacOS PDF
 
 ## Navigation and Shortcuts
 
@@ -60,7 +56,7 @@ Another good change to make is to bind `Run`, `Build` and `Debug` to dedicated b
 |<kbd>shift</kbd>+<kbd>enter</kbd>|Insert line below|
 |<kbd>ctrl</kbd>+<kbd>/</kbd>|comment line|
 |<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>/</kbd>|comment code block|
-|<kbd>alt</kbd>+<kbd>F8</kbd>|Evaluate expression &rarr; when on a breakpoint in `Debug` run any line of code at that state of the execution| <TODO deze shit moet nog is bezien worden>
+|<kbd>alt</kbd>+<kbd>F8</kbd>|Evaluate expression &rarr; when on a breakpoint in `Debug` run any line of code at that state of the execution|
 
 ### Cursor Navigation
 Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. We also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underrated keys can be extremely useful for navigating to the start or end of a line.
