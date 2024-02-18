@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.5.0
+<sup><sup>By Bas Calders v0.5.1 Q1 2024
 
 ## Table of Contents
 
@@ -57,10 +57,10 @@ Another good change to make is to bind `Run`, `Build` and `Debug` to dedicated b
 |<kbd>ctrl</kbd>+<kbd>/</kbd>|comment line|
 |<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>/</kbd>|comment code block|
 |<kbd>alt</kbd>+<kbd>F8</kbd>|Evaluate expression &rarr; when on a breakpoint in `Debug` run any line of code at that state of the execution|
-|<kbd>ctrl</kbd>+<kbd>p</kbd>|Show parameters of a function|
+|<kbd>ctrl</kbd>+<kbd>P</kbd>|Show parameters of a function|
 |<kbd>alt</kbd>+<kbd>enter</kbd>|show action and quick fixes (e.g. add import)|
 |<kbd>tab</kbd> or <kbd>ctrl</kbd>+<kbd>space</kbd>|complete code (<kbd>ctrl</kbd>+<kbd>space</kbd> handy when using GitHub Copilot)|
-|<kbd>ctrl</kbd>+<kbd>d</kbd>|Duplicate current line|
+|<kbd>ctrl</kbd>+<kbd>D</kbd>|Duplicate current line|
 
 ### Cursor Navigation
 Efficient navigation is paramount for a smooth coding experience. That is why we will focus on efficient cursor navigation using the keyboard. The cursor is primarily moved using the <kbd>arrow</kbd> keys. But we can add on to this with certain key combinations. The first combination is to press <kbd>ctrl</kbd> together with the arrows, this will skip to the next non alphanumeric symbol, this also includes tabs. This is an easy way to quickly go back to a certain point. It is important to note that the <kbd>up/down</kbd> keys are disabled while holding <kbd>ctrl</kbd>. <kbd>shift</kbd> can be used to select while using the arrow keys, this **does** work with the up and down arrows. A combination of both is also possible for the quick selection of words. We also want to mention and emphasize the use of the <kbd>home</kbd> and <kbd>end</kbd> keys. These highly underused keys can be extremely useful for navigating to the start or end of a line.
@@ -74,11 +74,13 @@ Another criminally underrated feature is <kbd>ctrl</kbd>+<kbd>backspace</kbd>/<k
 |<kbd>f4</kbd>| Jump to source code or definition|
 |double <kbd>shift</kbd>|Search everywhere, find things in any file of the project|
 |double <kbd>ctrl</kbd>|Run anything|
-|<kbd>ctrl</kbd>+<kbd>e</kbd>|Open recent file list|
-|<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>e</kbd>|Show recent locations|
+|<kbd>ctrl</kbd>+<kbd>E</kbd>|Open recent file list|
+|<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>E</kbd>|Show recent locations|
 |<kbd>ctrl</kbd>+<kbd>alt</kbd>+<kbd>F12</kbd>|Open file location in explorer|
 |<kbd>ctrl</kbd>+<kbd>F12</kbd>|Show all members of current file|
 |<kbd>ctrl</kbd>+<kbd>F11</kbd>|Make bookmarks and add number mnemonic this can then be jumped to using <kbd>ctrl</kbd>+ the chosen number key|
+|<kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>U</kbd>|Toggle between upper and lower case: CamelCase names are converted to the lower case. Lowercase names are converted to the uppercase format. Uppercase names are converted to the lower case.|
+
 
 
 
