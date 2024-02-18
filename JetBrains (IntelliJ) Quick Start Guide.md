@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.5.1 Q1 2024
+<sup><sup>By Bas Calders v0.5.2 Q1 2024
 
 ## Table of Contents
 
@@ -91,7 +91,7 @@ Since the *New UI Update* of `IntelliJ 2022.3` and higher the Toolbar has become
 Firstly adding a `Build` button next to the `Run` and `Debug` buttons. This button is worth more than you'd initially suspect, this will be handled in chapter [Efficiency and Time-Saving](#efficiency-and-time-saving). The next addition to the Toolbar we would make is adding the Version Control buttons `Update Project`/`Pull` (depending on preference), `Commit` and `Push` for quick access. 
 
 After removing some unnecessary actions from the Toolbar and setting a color for your project, your Toolbar might look something like this.
-<img src="./res/img/ToolbarExample.png"/>
+![toolbar example](./res/img/ToolbarExample.png)
 
 ### Other
 Another customization option that can help is undocking certain parts of the IDE. We recommend undocking the project tree, as this clears up valuable screen real estate, especially when working with multiple files open at once.
@@ -111,6 +111,7 @@ IntelliJ IDEA's Settings Sync feature offers invaluable convenience by seamlessl
 ### Key Promoter X
 
 ### Multiple Cursors
+![multi Cursor](./res/img/multiCursor2.gif)
 
 ### Build Run Debug Binds
 
