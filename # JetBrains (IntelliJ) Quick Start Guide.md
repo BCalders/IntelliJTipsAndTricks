@@ -1,5 +1,5 @@
 # JetBrains (IntelliJ) Quick Start Guide + Tips and tricks
-<sup><sup>By Bas Calders v0.4.1
+<sup><sup>By Bas Calders v0.4.1b
 
 ## Table of Contents
 
